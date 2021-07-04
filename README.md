@@ -21,6 +21,7 @@
 ### Execution in Browserstack environment
 
 * Run against browser=chrome, os=mac os x `mvn verify -Dbrowser='chrome' -Dos='os_x' -Denv='remote'`
+* Run against browser=safari, os=mac os x `mvn verify -Dbrowser='safari' -Dos='os_x' -Denv='remote'`
 * Run against browser=firefox, os=mac os x `mvn verify -Dbrowser='firefox' -Dos='os_x' -Denv='remote'`
 * Run against browser=firefox, os=windows `mvn verify -Dbrowser='firefox' -Dos='windows' -Denv='remote'`
 * Run against browser=chrome, os=windows `mvn verify -Dbrowser='chrome' -Dos='windows' -Denv='remote'`
