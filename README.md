@@ -11,12 +11,12 @@
 * Cucumber html for reporting
 * Browserstack
 
-### Default settings in local environment
+### Default settings
 
-* Default browser is set to `chrome`
-* Default os is set to `windows`  
+* Default browser is set to `safari`
+* Default os is set to `os_x`  
 * Default url is set to `https://test.app.upet.co/`
-* Default environment is set to `local`
+* Default environment is set to `remote`
 
 ### Execution in Browserstack environment
 

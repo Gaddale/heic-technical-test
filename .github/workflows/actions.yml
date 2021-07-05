@@ -1,0 +1,15 @@
+# Basic sample workflow, which can be further enhanced
+name: 'BrowserStack Test'
+on: [push, pull_request]
+
+jobs:
+  build:
+    name: 'BrowserStack Test on macos'
+    runs-on: macos-latest
+
+    steps:
+      - name: 'Checkout the repository'
+      - uses: actions/checkout@v2
+
+      - name: 'run mvn project'
+        run: mvn clean verify

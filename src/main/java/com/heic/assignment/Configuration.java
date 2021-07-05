@@ -4,10 +4,10 @@ import static java.lang.System.getenv;
 
 // Set As system property or env variable
 public enum Configuration {
-    BROWSER("BROWSER", "chrome"),
+    BROWSER("BROWSER", "safari"),
     TEST_URL("URL", "https://test.app.upet.co/"),
-    OP_SYS("OP_SYS","windows"),
-    ENV("ENV","local");
+    OP_SYS("OP_SYS","os_x"),
+    ENV("ENV","remote");
 
     private final String value;
 
